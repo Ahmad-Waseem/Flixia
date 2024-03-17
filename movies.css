@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a.active {
+	background-color: #fff;
+	color: #333;
+}
+
+main {
+	padding: 20px;
+	flex-grow: 1;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: auto;
+}
+
+footer button {
+	background-color: #fff;
+	color: #333;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+#title{
+    color:crimson;
+}
+
+.movie-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.movie-card {
+	width: 300px;
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+	display:flex;
+}
+
+.movie-card img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+.movie-card h3 {
+	margin: 10px;
+	font-size: 1.5em;
+}
+
+.movie-card p {
+	margin: 10px;
+	font-size: 1.2em;
+}
+
+.movie-card button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin: 10px;
+}
+
+nav ul li a[href="signup.html"] {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  nav ul li a[href="signup.html"]:hover {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }

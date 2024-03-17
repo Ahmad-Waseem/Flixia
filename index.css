@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #17b0d6;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a.active {
+	background-color: #fff;
+	color: #11c0cc;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #17b0d6;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: auto;
+	min-height: 100px;
+}
+
+footer button {
+	background-color: #fff;
+	color: #11c0cc;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+#h1{
+    color:crimson;
+}
+
+nav ul li a[href="signup.html"] {
+    background-color: #fff;
+    color: #11c0cc;
+    border: 1px solid #11c0cc;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  nav ul li a[href="signup.html"]:hover {
+    background-color: #11c0cc;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #search-bar {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+
+	position: absolute;
+   top: 20px;
+   right: 100px; /* adjust this value to give some space from the right edge */
+  }
+
+  #search-button {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #11c0cc;
+	color: #fff;
+	cursor: pointer;
+
+	position: absolute;
+	top : 20px;
+	right : 5px;
+  }
+
+.search{
+	display:flex;
+}
+ /* .watched-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+  } */
+
+  #home-search-bar{
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+	margin-top: 20px;
+	
+  }
+  #home-search-button {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	background-color: #11c0cc;
+	color: #fff;
+	cursor: pointer;
+  }
