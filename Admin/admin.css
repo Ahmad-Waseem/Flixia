@@ -1,0 +1,49 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.admin-panel {
+	margin: 50px auto;
+	max-width: 600px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-panel h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.admin-panel h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.admin-panel ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.admin-panel li {
+	margin-bottom: 10px;
+}
+
+.admin-panel li a {
+	display: block;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.admin-panel li a:hover {
+	background-color: #3e8e41;
+}
+
+.admin-panel li a:active {
+	background-color: #2d6526;
+}
